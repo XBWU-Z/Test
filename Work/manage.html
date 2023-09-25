@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>管理页面</title>
+	</head>
+
+	<link rel="stylesheet" href="dist/css/zui.min.css">
+	<!-- ZUI Javascript 依赖 jQuery -->
+	<script src="dist/lib/jquery/jquery.js"></script>
+	<!-- ZUI 标准版压缩后的 JavaScript 文件 -->
+	<script src="dist/js/zui.min.js"></script>
+
+
+	<body>
+		<!-- 水平导航条 -->
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<!-- 导航头部 -->
+				<div class="navbar-header">
+					<!-- 移动设备上的导航切换按钮 -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-collapse-example">
+						<span class="sr-only">切换导航</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- 品牌名称或logo -->
+					<a class="navbar-brand" href="your/nice/url">快递管理系统</a>
+				</div>
+
+				<!-- 导航项目 -->
+				<div class="collapse navbar-collapse navbar-collapse-example">
+					<!-- 左侧航项目 -->
+
+
+					<!-- 右侧目录项 -->
+					<ul class="nav navbar-nav navbar-right">
+
+						<li class="dropdown">
+							<a href="your/nice/url" class="dropdown-toggle" data-toggle="dropdown">个人账号 <b
+									class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="your/nice/url">个人首页</a></li>
+								<li><a href="your/nice/url">信息修改</a></li>
+								<li><a href="your/nice/url">个性设置</a></li>
+								<li class="divider"></li>
+								<li><a href="your/nice/url">帮助</a></li>
+							</ul>
+						</li>
+
+						<li class="active" ;"><a href="your/nice/url ">退出登入</a></li>
+					</ul>
+
+				</div><!-- END .navbar-collapse -->
+			</div>
+		</nav>
+
+		<!-- 垂直导航条 -->
+		<div  style="width:200px; display: inline-block;">
+			<ul class="nav nav-secondary nav-stacked">
+				<li class="nav-heading">
+					<i class="icon icon-user"></i>管理菜单
+				</li>
+				<br />
+			
+				<li class="active"><a href="your/nice/url">快递员管理</a></li>
+				<li><a href="your/nice/url">收件人管理</a></li>
+				<li><a href="your/nice/url">发货人管理</a></li>
+			</ul>
+		</div>
+
+		
+		<div style="display: inline-block;">
+			<!-- 搜索框 -->
+			<div class="input-group" style="margin-bottom: 20px;">
+				<div class="input-control search-box search-box-circle has-icon-left has-icon-right search-example"
+					id="searchboxExample">
+					<input id="inputSearchExample3" type="search" class="form-control search-input" placeholder="搜索">
+					<label for="inputSearchExample3" class="input-control-icon-left search-icon"><i
+							class="icon icon-search"></i></label>
+				</div>
+				<span class="input-group-btn">
+					<button class="btn btn-primary" type="button">搜索</button>
+				</span>
+			</div>
+			
+			<!-- 表格内容 -->
+			<table class="table table-auto table-hover table-bordered" style="display: block;">
+				<thead>
+					<tr>
+						<th>姓名</th>
+						<th>账号</th>
+						<th>岗位</th>
+						<th>部门</th>
+						<th>添加时间</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>张三</td>
+						<td>123456</td>
+						<td>快递员</td>
+						<td>部门A</td>
+						<td>2023/9/11</td>
+					</tr>
+					<tr>
+						<td>张三</td>
+						<td>123456</td>
+						<td>快递员</td>
+						<td>部门A</td>
+						<td>2023/9/11</td>
+					</tr>
+					<tr>
+						<td>张三</td>
+						<td>123456</td>
+						<td>快递员</td>
+						<td>部门A</td>
+						<td>2023/9/11</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>张三</td>
+						<td>123456</td>
+						<td>快递员</td>
+						<td>部门A</td>
+						<td>2023/9/11</td>
+						
+					</tr>
+				</tfoot>
+			</table>
+			
+		</div>
+		
+
+	</body>
+
+</html>
